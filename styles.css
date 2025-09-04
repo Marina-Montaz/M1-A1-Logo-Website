@@ -1,0 +1,131 @@
+
+
+.inter-normal {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+.raleway-normal{
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+/* Shared style */
+.text-primary{
+    color: #252432; /*for hero banner*/
+}
+.btn-primary{
+    background-color: rgb(184, 56, 184);
+    font-weight: bold;
+    font-size: 16px;
+    color: #ffff;
+    padding: 12px 36px;
+    border: none;
+    border-radius: 10px;
+}
+
+
+/* End of shared styles */
+
+/* header */
+.header{
+    background-image: url('../M1-A1-Logo-Website/images/Assets/Hero-bg.png');
+    background-repeat: no-repeat;
+}
+
+/* nav style */
+nav{
+    display: flex;
+    align-items: center; /*For vertical alignment of nav bar. upore niche thakle*/
+    justify-content: space-between;
+    margin: 50px 150px;
+}
+.nav-title{
+    font-weight: 900;
+    font-size: 35px;
+    color: purple;
+}
+nav ul{
+    display: flex;
+   
+}
+nav ul li{
+    list-style: none;
+     margin-right: 50px;
+}
+nav li a{
+    text-decoration: none;    
+}
+
+.banner-content{
+    text-align: center;
+    font-weight: bold;
+    font-size: 35px;
+    flex-wrap: wrap;
+    margin: 150px 220px;
+}
+
+/* action styles */
+.action{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 141px 200px 159px;
+}
+.action-content{
+    width: 580px;
+    margin: 62.5px 150px 62.5px 0;
+}
+
+.action-title{
+    font-weight: bold;
+    font-size: 45px;
+}
+
+.action-description{
+    font-weight: 200;
+    font-size: 24px;
+}
+
+.action-img{
+    width: 403px;
+    height: 328px;
+    border-radius: 45px;
+}
+
+/* main styles */
+.main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+/* Join section*/
+.join{
+    background-color: #efdbf7;
+    border-radius: 24px;
+    padding: 50px 80px;
+    margin: 116px 148px;
+    text-align: center;
+}
+.join-title{
+    font-weight: bold;
+    font-size: 30px;
+}
+.join-items{
+    display: flex;
+    justify-content: space-around;
+}
+.item-title{
+    font-weight: bold;
+    font-size: 80px;
+    color: rgb(184, 82, 184);
+    margin-top: 40px;
+    margin-bottom: 24px;
+}
+.item-description{
+    font-weight: 250;
+    font-size: 20px;
+    color: #000000;
+    text-align: center;
+}
