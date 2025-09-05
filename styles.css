@@ -18,13 +18,16 @@
     color: #252432; /*for hero banner*/
 }
 .btn-primary{
-    background-color: rgb(184, 56, 184);
+    background: linear-gradient(90deg, #b224ef, #7579ff);
     font-weight: bold;
     font-size: 16px;
     color: #ffff;
     padding: 12px 36px;
     border: none;
     border-radius: 10px;
+}
+.btn-primary button:hover {
+  background: linear-gradient(90deg, #9b1edb, #5b5edc);
 }
 .text-center{
     text-align: center;
@@ -197,3 +200,71 @@ nav li a{
 .ready-img{
     border-radius: 48px;
 }
+
+/* form section */
+.form{
+    margin: 99px 200px 99px 150px;
+}
+.form-body{
+    display: flex;
+    justify-content: space-between;
+    padding: 71px 0px;
+}
+.form-main label{
+    display: block;   
+}
+.form-header{
+    font-weight: bold;
+    font-size: 75px;
+    padding: 10px 70px 10px 0px;
+}
+.form-txt{
+  max-width: 500px;   /* controls overall form size */
+  width: 90%;         /* makes it responsive */
+  margin: 50px auto;  /* centers it on the page */
+  padding: 20px;
+  background: #f9fbff;
+  border-radius: 8px;
+  box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+}
+
+.form-txt label {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: bold;
+  font-size: 18px;
+  color: #333;
+}
+
+.form-txt input,
+.form-txt textarea {
+  width: 100%;       /* full width */
+  padding: 14px;     /* bigger input fields */
+  margin-bottom: 18px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 20px;
+}
+
+.form-txt textarea {
+  resize: none;
+  min-height: 120px; /* bigger message box */
+}
+
+.form-txt button {
+  width: 100%;
+  padding: 16px;
+  background: linear-gradient(90deg, #b224ef, #7579ff);
+  border: none;
+  border-radius: 8px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+
+.form-txt button:hover {
+  background: linear-gradient(90deg, #9b1edb, #5b5edc);
+}
+
