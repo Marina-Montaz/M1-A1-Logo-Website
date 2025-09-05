@@ -26,14 +26,19 @@
     border: none;
     border-radius: 10px;
 }
+.text-center{
+    text-align: center;
+}
 
 
 /* End of shared styles */
 
 /* header */
 .header{
-    background-image: url('../M1-A1-Logo-Website/images/Assets/Hero-bg.png');
-    background-repeat: no-repeat;
+    background-image: url('../images/Assets/Hero-bg.png');
+    background-repeat: none;
+    /* width: 1440px; */
+    height: 698px;
 }
 
 /* nav style */
@@ -41,7 +46,7 @@ nav{
     display: flex;
     align-items: center; /*For vertical alignment of nav bar. upore niche thakle*/
     justify-content: space-between;
-    margin: 50px 150px;
+    margin: 0px 150px;
 }
 .nav-title{
     font-weight: 900;
@@ -72,11 +77,11 @@ nav li a{
 .action{
     display: flex;
     justify-content: space-between;
-    margin: 0 141px 200px 159px;
+    margin: 116px 141px 200px 159px;
 }
 .action-content{
     width: 580px;
-    margin: 62.5px 150px 62.5px 0;
+    margin: 62px 100px 62px 30px;
 }
 
 .action-title{
@@ -92,7 +97,7 @@ nav li a{
 .action-img{
     width: 403px;
     height: 328px;
-    border-radius: 45px;
+    border-radius: 48px;
 }
 
 /* main styles */
@@ -128,4 +133,67 @@ nav li a{
     font-size: 20px;
     color: #000000;
     text-align: center;
+}
+
+/*  Review section */
+
+.reviews{
+    margin: 137px 151px;
+}
+.section-title{
+    font-weight: bold;
+    font-size: 42px;
+    margin-bottom: 50px;
+}
+
+.review-container{
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+} 
+.review{
+    padding: 30px;
+    box-shadow: 0px 2px 4px 0px rgba(238, 184, 134, 0.6);
+    border-radius: 14px;
+    background-color: #fdfcfa;
+}
+.review-title{
+    padding-top: 24px;
+}
+.review-description{
+    padding-bottom: 20px;
+}
+.avatar{
+    display: flex;
+}
+.avt-img{
+    width: 50px;
+    height: 70px;
+    padding-top: 10px;
+}
+.avt-info{
+    margin-left: 30px;
+}
+
+/* ready-section */
+.ready-section{
+    text-align: center;
+    margin: 131px 151px;
+    border-radius: 20px;
+    padding: 71px 150px;
+    background-color: rgb(243, 238, 243);
+}
+.ready-body{
+    padding-bottom: 35px;
+}
+.ready-header{
+    font-weight: bold;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.ready-description{
+    padding-bottom: 20px;
+}
+.ready-img{
+    border-radius: 48px;
 }
